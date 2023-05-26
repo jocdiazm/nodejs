@@ -5,7 +5,11 @@
   "main": "index.js",
   "author": "alphasec",
   "license": "MIT",
-   "dependencies": {
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-rdkafka": "^2.16.0"
   },
   "scripts": {
     "start": "node index.js"
